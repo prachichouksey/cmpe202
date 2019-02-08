@@ -1,0 +1,1 @@
+A new state named WaitingLimit state has been added in order to cater to the requirement of having partial money required to release gumball. I have udpated the class diagram for the same.
