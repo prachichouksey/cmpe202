@@ -1,0 +1,3 @@
+I have added new attributes named state(for part1) and currentValue(for part2), limit and type for the gumball machine. The limit defines the minumum value required for a particular type of gumball machine to dispense a coin. Types of machine are "quarter25", "quarter50" and "any50".
+For part one of the lab, the flag hasQuarter changes to true only when the state of the machine reaches its limit. State changes as and when the user inserts coins. And based on the type and acceptable coins the state changes.
+For part two of the lab, I have added a new state names WaitingLimitstate along with the attributes mentioned above, this is basically a state where machine has received some coins but not enugh to dispatch gumball based on its type.
