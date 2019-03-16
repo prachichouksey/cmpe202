@@ -1,3 +1,3 @@
 public interface IPrintStrategy {
-public void printDescription();
+public void printDescription(Order burger);
 }

@@ -5,7 +5,7 @@ public class Context {
         this.strategy = strategy;
     }
 
-    public void printDescription(){
-        strategy.printDescription();
+    public void printDescription(Order order){
+        strategy.printDescription(order);
     }
 }

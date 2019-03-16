@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Patty implements IBurgerIngredient{
+    String name;
+    public Patty(String patty) {
+        this.name=patty;
+    }
 
-public class Patty {
+    @Override
+    public void printDescription() {
+        System.out.println("{{{"+name+"}}}");
+    }
 }
