@@ -17,7 +17,7 @@ public abstract class LeafDecorator extends Leaf implements PriceDecorator
    }
     
    public Double getPrice() {
-        if (wrapped == null )
+       if (wrapped == null )
         {
             return price ;
         }
