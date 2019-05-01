@@ -1,6 +1,6 @@
 # Lab 10 
 
-## Feature Oriented Programming**
+## Feature Aspect Programming
 
 ### Output for different feature combinations
 
@@ -30,3 +30,6 @@ Using Eclipse with Feature IDE, a model and config can be used to implement only
 The aspect files are updated in the default package based on the config.
 
 Joint points and advices are used to plug additional behavior to the code.
+
+To conclude, it is easier to add features and configuration in the code using aspects without changing the code.
+It is easier to debug using feature ide too.
