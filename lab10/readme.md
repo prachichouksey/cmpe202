@@ -22,7 +22,7 @@
 
 Lab1 was configured to accept the type of gumball machine and implemented to operate based on the same configuration. 
 This implementation was done in Object oriented programming.
-The limit and current coin value was configured in the gumball machine according to the input.
+The limit and current coin value was configured in the gumball machine according to the input. The limitation of this implementation is, it is too complex to change the configurations of the existing machine. The code needs to be changed manually if in future new gumball machine model is introduced.
 
 ### Lab 10
 
